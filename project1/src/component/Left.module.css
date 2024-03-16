@@ -1,0 +1,24 @@
+.container{
+   width: 50%;
+}
+.heading{
+  font-size: 25px;
+}
+.p{
+
+}
+.btncont{
+   margin-bottom: 10px;
+}
+.btn{
+    background-color: rgb(235, 45, 45);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    margin: 5px;
+} 
+.logocont{
+
+}

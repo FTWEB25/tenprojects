@@ -1,0 +1,8 @@
+.container{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    height: calc(100vh-100px);
+}
