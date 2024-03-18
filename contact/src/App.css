@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  width: 100%;
+  height: 72px;
+}
+.maincont{
+  width: 70%;
+  margin: auto;
+  height: calc(100vh - 72px);
+}
+.textcont{
+   width: 70%;
+   height: 20%;
+}
+.content{
+  display: flex;
+  
+}
+.formcont{
+   width: 50%;
+   height: 100%;
+   padding: 20px 0px 0px 0px;
+}
+.imgcont{
+  width: 50%;
+   height: 100%;
+}
+.imgcont img{
+  width: 100%;
+}
+button{
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.btncont{
+  margin-bottom: 10px;
+}
+#chatbtn{
+  width: 40%;
+  margin-right:5px ;
+}
+#callbtn{
+  width: 40%;
+}
+#mailbtn{
+  width: 80%;
+  background-color: transparent;
+  color: black;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+form label{
+  
+}
+form input{
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+textarea{
+  width: 70%;
+}
+input[type="submit"] {
+  /* Your styles here */
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 10px;
+}
+
